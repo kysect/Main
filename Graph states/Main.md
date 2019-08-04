@@ -1,4 +1,7 @@
 # IDE и окружение, немного про C# (id-1.1)
+
+![Main](img/main.jpg)
+
 - Visual Studio, инфа про разные сборки и просто компоненты
   - Установка Visual Studio [link](https://docs.microsoft.com/ru-ru/visualstudio/install/install-visual-studio?view=vs-2019)
   - Гайд по VS, создание проекта [link](https://docs.microsoft.com/ru-ru/visualstudio/get-started/csharp/visual-studio-ide?view=vs-2019)
@@ -23,7 +26,6 @@
 - Строки
   - Строки и класс System.String https://metanit.com/sharp/tutorial/7.1.php
   - Операции со строками https://metanit.com/sharp/tutorial/7.2.php
-
 
 ## Практика
 1. Лабораторные за 1 семестр
@@ -50,6 +52,8 @@
 2. Лабораторные за 3 семестр (1 и 2)
 
 # Pure Code
+
+![Pure](img/pure&#32;code.jpg)
 > Выделен в отдельный файл
 
 # Обобщения и коллекции
@@ -84,6 +88,9 @@
   - Делегаты и анонимные методы в запросах LINQ [(Метанит)](https://metanit.com/sharp/tutorial/15.9.php)
 
 # Работа с внешними компонентами
+
+![Pure](img/libs&#32;and&#32;other.jpg)
+
 > Выделен в отдельный файл
 
 # Алсо
