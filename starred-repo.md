@@ -51,19 +51,18 @@
 # ORM, SQL etc.
 
 - [tsql-parser](https://github.com/bruce-dunwiddie/tsql-parser): Library Written in C# For Parsing SQL Server T-SQL Scripts in .Net
-- [EFDesigner](https://github.com/msawczyn/EFDesigner): Entity Framework visual design surface and code-first code generation for EF6, Core and beyond
-- [EntityFrameworkCore.IndexAttribute](https://github.com/jsakamoto/EntityFrameworkCore.IndexAttribute): Revival of [Index] attribute for EF Core. (with extension for model building.)
 - [hotchocolate](https://github.com/ChilliCream/hotchocolate): Welcome to the home of the Hot Chocolate GraphQL server for .NET, the Strawberry Shake GraphQL client for .NET and Banana Cake Pop the awesome Monaco based GraphQL IDE.
-- [Dapper.FSharp](https://github.com/Dzoukr/Dapper.FSharp): Lightweight F# extension for StackOverflow Dapper
 - [graphql-net](https://github.com/chkimes/graphql-net): An implementation of GraphQL for .NET and IQueryable
-- [StoredProcedureEFCore](https://github.com/verdie-g/StoredProcedureEFCore): Entity Framework Core extension to execute stored procedures
 - [memstate](https://github.com/DevrexLabs/memstate): In-memory event-sourced ACID-transactional distributed object graph engine for .NET Standard
 - [Kusto-Query-Language](https://github.com/microsoft/Kusto-Query-Language): Kusto Query Language is a simple and productive language for querying Big Data
 - [Insight.Database](https://github.com/jonwagner/Insight.Database): Insight.Database is a fast, lightweight, (and dare we say awesome) micro-orm for .NET.
 - [querybuilder](https://github.com/sqlkata/querybuilder): SQL query builder, written in c#, helps you build complex queries easily, supports SqlServer, MySql, PostgreSql, Oracle, Sqlite and Firebird
+- [EFDesigner](https://github.com/msawczyn/EFDesigner): Entity Framework visual design surface and code-first code generation for EF6, Core and beyond
+- [EntityFrameworkCore.IndexAttribute](https://github.com/jsakamoto/EntityFrameworkCore.IndexAttribute): Revival of [Index] attribute for EF Core. (with extension for model building.)
+- [StoredProcedureEFCore](https://github.com/verdie-g/StoredProcedureEFCore): Entity Framework Core extension to execute stored procedures
 - [sqlite-net](https://github.com/praeclarum/sqlite-net): Simple, powerful, cross-platform SQLite client and ORM for .NET
 - [LiteDB](https://github.com/mbdavid/LiteDB): LiteDB - A .NET NoSQL Document Store in a single data file
-- 
+- [Dapper.FSharp](https://github.com/Dzoukr/Dapper.FSharp): Lightweight F# extension for StackOverflow Dapper
 
 # Roslyn
 
