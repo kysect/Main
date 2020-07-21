@@ -10,9 +10,9 @@
 
 # Основы C#
 
-- csharp-first-steps https://docs.microsoft.com/ru-ru/learn/paths/csharp-first-steps/
-- csharp-logic https://docs.microsoft.com/ru-ru/learn/paths/csharp-logic/
-- csharp-data https://docs.microsoft.com/ru-ru/learn/paths/csharp-data/
+- [csharp-first-steps](https://docs.microsoft.com/ru-ru/learn/paths/csharp-first-steps/)
+- [csharp-logic](https://docs.microsoft.com/ru-ru/learn/paths/csharp-logic/)
+- [csharp-data](https://docs.microsoft.com/ru-ru/learn/paths/csharp-data/)
 
 - Язык C#, как и зачем
 - Операторы (Арифметические, условные, циклы)
@@ -24,26 +24,26 @@
 
 - Классы, Структуры, ссылочные и значимые типы
   - Классы [(Метанит)](https://metanit.com/sharp/tutorial/3.1.php)
-  - Структуры https://metanit.com/sharp/tutorial/2.13.php
-  - Типы значений и ссылочные типы https://metanit.com/sharp/tutorial/2.16.php
+  - Структуры [(Метанит)](https://metanit.com/sharp/tutorial/2.13.php)
+  - Типы значений и ссылочные типы [(Метанит)](https://metanit.com/sharp/tutorial/2.16.php)
 - Особенности типов
-  - Модификаторы доступа https://metanit.com/sharp/tutorial/3.2.php
-  - Свойства и инкапсуляция https://metanit.com/sharp/tutorial/3.4.php
-  - Перегрузка методов https://metanit.com/sharp/tutorial/3.5.php
-  - Статические члены и модификатор static https://metanit.com/sharp/tutorial/3.6.php
-  - Константы и поля для чтения https://metanit.com/sharp/tutorial/3.3.php
-  - Перегрузка операторов https://metanit.com/sharp/tutorial/3.36.php
-  - Значение null https://metanit.com/sharp/tutorial/3.26.php
-  - Индексаторы https://metanit.com/sharp/tutorial/4.10.php
+  - Модификаторы доступа [(Метанит)](https://metanit.com/sharp/tutorial/3.2.php)
+  - Свойства и инкапсуляция [(Метанит)](https://metanit.com/sharp/tutorial/3.4.php)
+  - Перегрузка методов [(Метанит)](https://metanit.com/sharp/tutorial/3.5.php)
+  - Статические члены и модификатор static [(Метанит)](https://metanit.com/sharp/tutorial/3.6.php)
+  - Константы и поля для чтения [(Метанит)](https://metanit.com/sharp/tutorial/3.3.php)
+  - Перегрузка операторов [(Метанит)](https://metanit.com/sharp/tutorial/3.36.php)
+  - Значение null [(Метанит)](https://metanit.com/sharp/tutorial/3.26.php)
+  - Индексаторы [(Метанит)](https://metanit.com/sharp/tutorial/4.10.php)
 - Основные механики ООП
-  - Наследование https://metanit.com/sharp/tutorial/3.7.php
-  - Преобразование типов https://metanit.com/sharp/tutorial/3.11.php
-  - Перегрузка операций преобразования типов https://metanit.com/sharp/tutorial/3.37.php
-  - Виртуальные методы и свойства https://metanit.com/sharp/tutorial/3.19.php
-  - Сокрытие https://metanit.com/sharp/tutorial/3.41.php
-  - Абстрактные классы и члены классов https://metanit.com/sharp/tutorial/3.8.php
-- Класс System.Object и его методы (https://metanit.com/sharp/tutorial/3.10.php)
-- Интерфейсы (https://metanit.com/sharp/tutorial/3.9.php)
+  - Наследование [(Метанит)](https://metanit.com/sharp/tutorial/3.7.php)
+  - Преобразование типов [(Метанит)](https://metanit.com/sharp/tutorial/3.11.php)
+  - Перегрузка операций преобразования типов [(Метанит)](https://metanit.com/sharp/tutorial/3.37.php)
+  - Виртуальные методы и свойства [(Метанит)](https://metanit.com/sharp/tutorial/3.19.php)
+  - Сокрытие [(Метанит)](https://metanit.com/sharp/tutorial/3.41.php)
+  - Абстрактные классы и члены классов [(Метанит)](https://metanit.com/sharp/tutorial/3.8.php)
+- Класс System.Object и его методы [(Метанит)](https://metanit.com/sharp/tutorial/3.10.php)
+- Интерфейсы [(Метанит)](https://metanit.com/sharp/tutorial/3.9.php)
 
 # Обобщения и коллекции. LINQ и лямбды
 
@@ -86,22 +86,17 @@
 
 # Also about C#
 
-- Перечисления enum
-  - https://metanit.com/sharp/tutorial/2.12.php
-- Кортежи
-  - https://metanit.com/sharp/tutorial/2.19.php
-- Анонимные типы
-  - https://metanit.com/sharp/tutorial/3.20.php
-- Pattern matching
-  - https://metanit.com/sharp/tutorial/3.34.php
-- Nullable-типы
-  - https://metanit.com/sharp/tutorial/2.17.php
+- Перечисления enum [(Метанит)](https://metanit.com/sharp/tutorial/2.12.php)
+- Кортежи [(Метанит)](https://metanit.com/sharp/tutorial/2.19.php)
+- Анонимные типы [(Метанит)](https://metanit.com/sharp/tutorial/3.20.php)
+- Pattern matching [(Метанит)](https://metanit.com/sharp/tutorial/3.34.php)
+- Nullable-типы [(Метанит)](https://metanit.com/sharp/tutorial/2.17.php)
 - Строки
-  - Форматирование и интерполяция строк https://metanit.com/sharp/tutorial/7.5.php
-  - Класс StringBuilder https://metanit.com/sharp/tutorial/7.3.php
+  - Форматирование и интерполяция строк [(Метанит)](https://metanit.com/sharp/tutorial/7.5.php) 
+  - Класс StringBuilder [(Метанит)](https://metanit.com/sharp/tutorial/7.3.php) 
 - Структура DateTime
-  - Структура DateTime https://metanit.com/sharp/tutorial/19.1.php
-  - Форматирование дат и времени https://metanit.com/sharp/tutorial/19.2.php
+  - Структура DateTime [(Метанит)](https://metanit.com/sharp/tutorial/19.1.php) 
+  - Форматирование дат и времени [(Метанит)](https://metanit.com/sharp/tutorial/19.2.php) 
 
 # ASP Web API
 
