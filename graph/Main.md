@@ -1,7 +1,18 @@
 ![Main](main.jpg)
 
+# Map
 
-# IDE и окружение, немного про C#
+- [Intro](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#intro)
+- [Основы C#](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-c)
+- [IDE и окружение]
+  - [Welcome to Github](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#welcome-to-github)
+- [Also about C#](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#also-about-c)
+- [Введение в ООП. Типы: классы, структуры](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BE%D0%BE%D0%BF-%D1%82%D0%B8%D0%BF%D1%8B-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B-%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B)
+  - [Обобщения и коллекции. LINQ и лямбды](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#%D0%BE%D0%B1%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B8-linq-%D0%B8-%D0%BB%D1%8F%D0%BC%D0%B1%D0%B4%D1%8B)
+  - [Exception, работа с исключениями](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#exception-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8-id-21)
+- [ASP Web API](https://github.com/TEF-Dev/Main/blob/master/graph/Main.md#asp-web-api)
+
+# Intro
 
 - Visual Studio, инфа про разные сборки и просто компоненты
   - Установка Visual Studio [link](https://docs.microsoft.com/ru-ru/visualstudio/install/install-visual-studio?view=vs-2019)
