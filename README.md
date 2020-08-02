@@ -8,7 +8,7 @@ Main
 
 ## Полезные ссылки
 
-- [Прототип roadmap по вкатыванию в C#](/graph/Main.md)
+- [Прототип roadmap по вкатыванию в C#](/roadmap/csharp.md)
 - [Наши проекты](/projects.md)
 - [Полезные ресурсы](/resources.md)
 - [Всякие курсы, где мы были](/irl-courses.md)
