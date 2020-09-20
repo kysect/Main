@@ -106,7 +106,7 @@
 
 # ASP Web API
 
-- [Create a web API with ASP.NET Core](https://docs.microsoft.com/ru-ru/learn/modules/create-razor-pages-aspnet-core/)
+- [Create a web API with ASP.NET Core](https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/)
 - [Swagger](https://docs.microsoft.com/en-us/learn/modules/improve-api-developer-experience-with-swagger/)
 - [Logging](https://docs.microsoft.com/en-us/learn/modules/aspnet-logging/)
 - [EF](https://docs.microsoft.com/en-us/learn/modules/persist-data-ef-core/)
