@@ -11,7 +11,7 @@
   - [Exception, работа с исключениями](https://github.com/TEF-Dev/Main/blob/master/roadmap/csharp.md#exception-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8-id-21)
 - [ASP Web API](https://github.com/TEF-Dev/Main/blob/master/roadmap/csharp.md#asp-web-api)
 
-# Ide, git
+# Level 0: Tools, IDE, git
 
 - Visual Studio, инфа про разные сборки и просто компоненты
   - Установка Visual Studio [link](https://docs.microsoft.com/ru-ru/visualstudio/install/install-visual-studio?view=vs-2019)
@@ -25,15 +25,11 @@
 
 # Основы C#
 
+Документация по языку от майкрософта: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/
+
 - [csharp-first-steps](https://docs.microsoft.com/ru-ru/learn/paths/csharp-first-steps/)
 - [csharp-logic](https://docs.microsoft.com/ru-ru/learn/paths/csharp-logic/)
 - [csharp-data](https://docs.microsoft.com/ru-ru/learn/paths/csharp-data/)
-
-- Язык C#, как и зачем
-- Операторы (Арифметические, условные, циклы)
-- Массивы
-- Методы, параметры
-- Строки, enum'ы, кортежи
 
 # Also about C#
 
@@ -104,15 +100,6 @@
   - Отложенное и немедленное выполнение LINQ [(Метанит)](https://metanit.com/sharp/tutorial/15.8.php)
   - Делегаты и анонимные методы в запросах LINQ [(Метанит)](https://metanit.com/sharp/tutorial/15.9.php)
 
-# ASP Web API
-
-- [Create a web API with ASP.NET Core](https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/)
-- [Swagger](https://docs.microsoft.com/en-us/learn/modules/improve-api-developer-experience-with-swagger/)
-- [Logging](https://docs.microsoft.com/en-us/learn/modules/aspnet-logging/)
-- [EF](https://docs.microsoft.com/en-us/learn/modules/persist-data-ef-core/)
-- [Identity framework](https://docs.microsoft.com/en-us/learn/modules/secure-aspnet-core-identity/)
-- [Blazzor](https://docs.microsoft.com/en-us/learn/modules/build-blazor-webassembly-visual-studio-code/)
-
 # Exception, работа с исключениями (id-2.1)
 
 - [Обработка исключений](https://metanit.com/sharp/tutorial/2.14.php)
@@ -126,23 +113,25 @@
 
 - [Паттерны от рефакторинг Гуру](https://refactoring.guru/ru)
 
+# ASP Web API
+
+- [Create a web API with ASP.NET Core](https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/)
+- [Swagger](https://docs.microsoft.com/en-us/learn/modules/improve-api-developer-experience-with-swagger/)
+- [Logging](https://docs.microsoft.com/en-us/learn/modules/aspnet-logging/)
+- [EF](https://docs.microsoft.com/en-us/learn/modules/persist-data-ef-core/)
+- [Identity framework](https://docs.microsoft.com/en-us/learn/modules/secure-aspnet-core-identity/)
+- [Design Patterns: Asp.Net Core Web API, services, and repositories](https://www.forevolve.com/en/articles/2017/08/11/design-patterns-web-api-service-and-repository-part-1/)
+# Blazor - Web UI
+
+- [Blazzor](https://docs.microsoft.com/en-us/learn/modules/build-blazor-webassembly-visual-studio-code/)
+
+# WPF
+
+- [WPF](https://docs.microsoft.com/en-us/learn/modules/create-ui-for-windows-10-apps/)
+
 # Многопоточность, асинхронность
+
 # Алсо
 
 - [Bot framework](https://docs.microsoft.com/en-us/learn/modules/responsible-bots/)
 - [Git action CI](https://docs.microsoft.com/en-us/learn/paths/automate-workflow-github-actions/)
-
-- Json, NewtonJson
-  - Знакомство с Json
-  - Сериализация с десериализация в C# с NewtonJson
-  - Создание консольного приложения с сохранением стейта в json. Пример: todo list.
-- VK/Telegram/Discord/Github API
-  - Знакомство с API
-  - Токены/авторизация
-  - Работа с WebClient, отправка запросов
-  - Анализ сообщений (активность в конфе, часто юзаемые слова)
-  - Бот реагирующий на команды: расписание, карма бот, онлайн очередь  и т.д.
-  - Подсчет комитов в репозиториях, генерация инфографики активности
-- HAP и парсинг сайтов
-  - Знакомство с html и структурой сайтов
-  - Использование HAP для парсинга данных со страниц

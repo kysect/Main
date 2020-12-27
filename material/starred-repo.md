@@ -12,12 +12,18 @@
 - [CleanArchitecture](https://github.com/ardalis/CleanArchitecture): A starting point for Clean Architecture with ASP.NET Core.
 - [hexagonal-architecture-acerola](https://github.com/ivanpaulovich/hexagonal-architecture-acerola): An Hexagonal Architecture service template with DDD, CQRS, TDD and SOLID using .NET Core 2.0
 - [design-patterns-csharp](https://github.com/RefactoringGuru/design-patterns-csharp): Design Pattern Examples in C#
+- [northwind-apps](https://github.com/epam-dotnet-lab/northwind-apps)
+- [file-cabinet-task](https://github.com/epam-dotnet-lab/file-cabinet-task)
 
-# Wpf tools
+# UI
+### WPF tools
 
 - [ModernWpf](https://github.com/Kinnara/ModernWpf): Modern styles and controls for your WPF applications
 - [WPF-Math](https://github.com/ForNeVeR/wpf-math): WPF-Math is a .NET library for rendering mathematical formulae using the LaTeX typsetting style, for the WPF framework
 - [emoji.wpf](https://github.com/samhocevar/emoji.wpf): a proof of concept implementation of Emoji for WPF
+
+### Blazor
+
 
 # ASP
 
@@ -49,20 +55,24 @@
 
 
 # ORM, SQL etc.
-
 - [tsql-parser](https://github.com/bruce-dunwiddie/tsql-parser): Library Written in C# For Parsing SQL Server T-SQL Scripts in .Net
 - [hotchocolate](https://github.com/ChilliCream/hotchocolate): Welcome to the home of the Hot Chocolate GraphQL server for .NET, the Strawberry Shake GraphQL client for .NET and Banana Cake Pop the awesome Monaco based GraphQL IDE.
 - [graphql-net](https://github.com/chkimes/graphql-net): An implementation of GraphQL for .NET and IQueryable
-- [memstate](https://github.com/DevrexLabs/memstate): In-memory event-sourced ACID-transactional distributed object graph engine for .NET Standard
 - [Kusto-Query-Language](https://github.com/microsoft/Kusto-Query-Language): Kusto Query Language is a simple and productive language for querying Big Data
 - [Insight.Database](https://github.com/jonwagner/Insight.Database): Insight.Database is a fast, lightweight, (and dare we say awesome) micro-orm for .NET.
 - [querybuilder](https://github.com/sqlkata/querybuilder): SQL query builder, written in c#, helps you build complex queries easily, supports SqlServer, MySql, PostgreSql, Oracle, Sqlite and Firebird
+- [sqlite-net](https://github.com/praeclarum/sqlite-net): Simple, powerful, cross-platform SQLite client and ORM for .NET
+- [RepoDB](https://github.com/mikependon/RepoDB): RepoDB is an open-source .NET ORM library that bridges the gaps of micro-ORMs and full-ORMs
+
+### Databases
+- [memstate](https://github.com/DevrexLabs/memstate): In-memory event-sourced ACID-transactional distributed object graph engine for .NET Standard
+- [LiteDB](https://github.com/mbdavid/LiteDB): LiteDB - A .NET NoSQL Document Store in a single data file
+
+### Entity Framework
 - [EFDesigner](https://github.com/msawczyn/EFDesigner): Entity Framework visual design surface and code-first code generation for EF6, Core and beyond
 - [EntityFrameworkCore.IndexAttribute](https://github.com/jsakamoto/EntityFrameworkCore.IndexAttribute): Revival of [Index] attribute for EF Core. (with extension for model building.)
 - [StoredProcedureEFCore](https://github.com/verdie-g/StoredProcedureEFCore): Entity Framework Core extension to execute stored procedures
-- [sqlite-net](https://github.com/praeclarum/sqlite-net): Simple, powerful, cross-platform SQLite client and ORM for .NET
-- [LiteDB](https://github.com/mbdavid/LiteDB): LiteDB - A .NET NoSQL Document Store in a single data file
-- [Dapper.FSharp](https://github.com/Dzoukr/Dapper.FSharp): Lightweight F# extension for StackOverflow Dapper
+
 
 # Roslyn
 
@@ -82,6 +92,8 @@
 - [language-ext](https://github.com/louthy/language-ext): C# functional language extensions - a base class library for functional programming
 - [Mapster](https://github.com/MapsterMapper/Mapster): Writing mapping method is machine job. Do not waste your time, let Mapster do it.
 - [CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions): Functional extensions for C#
+- [FluentResults](https://github.com/altmann/FluentResults): FluentResults is a lightweight .NET library developed to solve a common problem. It returns an object indicating success or failure of an operation instead of throwing/using exceptions.
+- [RestSharp](https://github.com/restsharp/RestSharp)
 
 # Tools
 
@@ -94,10 +106,24 @@
 - [stateless](https://github.com/dotnet-state-machine/stateless): A simple library for creating state machines in C# code
 - [gui.cs](https://github.com/migueldeicaza/gui.cs): Console-based user interface toolkit for .NET applications.
 - [octokit.net](https://github.com/octokit/octokit.net): Octokit is a client library targeting .NET Framework 4.5+ and .NET Standard 1+ and above that provides an easy way to interact with the GitHub API
-
+- [RogueSharp](https://github.com/FaronBracy/RogueSharp) - RogueSharp is a free library written in C# to help roguelike developers get a head start on their game. RogueSharp provides many utility functions for dealing with map generation, field-of-view calculations, path finding, random number generation and more.
 
 # Секция байтолюбства
 
 - [InlineIL.Fody](https://github.com/ltrzesniewski/InlineIL.Fody): Inject arbitrary IL code at compile time.
 - [iced](https://github.com/0xd4d/iced): x86/x64 disassembler, assembler, decoder, encoder
 - [Uuids](https://github.com/vanbukin/Uuids): Fast C# UUID implementation for .NET Core 3.1 (Only little-endian)
+
+# Projects, ideas etc.
+
+- [project-based-learning](https://github.com/tuvtran/project-based-learning) - A list of programming tutorials in which learners build an application from scratch
+- [Hexlet/ru-test-assignments](https://github.com/Hexlet/ru-test-assignments) - Данный репозиторий создан и поддерживается командой и сообществом образовательного проекта Хекслет
+
+# Papers
+
+- [SoftwareArchitect](https://github.com/justinamiller/SoftwareArchitect)
+- [system-design-primer](https://github.com/donnemartin/system-design-primer)
+- [AspNetCore-Developer-Roadmap](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap)
+
+# FSharp
+- [AlgebraFs](https://github.com/Zaid-Ajaj/AlgebraFs)
