@@ -11,6 +11,6 @@ Main
 - [Прототип roadmap по вкатыванию в C#](/roadmap/csharp.md)
 - [Тестовое задание для прохождение в секту](intro-task.md)
 - [Наши проекты](/projects.md)
-- [Полезные ресурсы](/resources.md)
-- [Всякие курсы, где мы были](/irl-courses.md)
+- [Полезные ресурсы](/material/resources.md)
+- [Всякие курсы, где мы были](/material/irl-courses.md)
 - [Немного про ролевую модель в Дискорде](/discord-roles.md)
