@@ -59,7 +59,7 @@ Sync primitives
 Task, async
 PLINQ
 end note
---> ".Кровавый энтерпрайз" << Dev >>
+--> "Кровавый энтерпрайз" << Dev >>
 
 Frameworks --> "Xamarin"
 --> "MAUI"
