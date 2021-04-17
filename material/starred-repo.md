@@ -14,24 +14,35 @@
 - [design-patterns-csharp](https://github.com/RefactoringGuru/design-patterns-csharp): Design Pattern Examples in C#
 - [northwind-apps](https://github.com/epam-dotnet-lab/northwind-apps)
 - [file-cabinet-task](https://github.com/epam-dotnet-lab/file-cabinet-task)
+- [Practical.CleanArchitecture](https://github.com/phongnguyend/Practical.CleanArchitecture): Asp.Net Core 5 Clean Architecture (Microservices, Modular Monolith, Monolith) samples (+Blazor, Angular 11, React 17, Vue 2.6), Domain-Driven Design, CQRS, Event Sourcing...
+- [ModernArchitectureShop](https://github.com/alugili/ModernArchitectureShop): The Microservices Online Shop is an application with a modern software architecture that is cleanly designed and based on.NET lightweight technologies. The shop has two build variations.
+- [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb): Sample ASP.NET Core 5.0 reference application, powered by Microsoft, demonstrating a layered application architecture with monolithic deployment model. Download the eBook PDF from docs folder.
 
 # UI
-### WPF tools
+## WPF tools
 
 - [ModernWpf](https://github.com/Kinnara/ModernWpf): Modern styles and controls for your WPF applications
 - [WPF-Math](https://github.com/ForNeVeR/wpf-math): WPF-Math is a .NET library for rendering mathematical formulae using the LaTeX typsetting style, for the WPF framework
 - [emoji.wpf](https://github.com/samhocevar/emoji.wpf): a proof of concept implementation of Emoji for WPF
 
-### Blazor
+## Blazor
+- [TextEditor](https://github.com/Blazored/TextEditor): Rich text editor for Blazor applications - Uses Quill JS
+- [Modal](https://github.com/Blazored/Modal): A powerful and customizable modal implementation for Blazor applications.
+- [MobileBlazorBindings](https://github.com/dotnet/MobileBlazorBindings): Experimental Mobile Blazor Bindings - Build native and hybrid mobile apps with Blazor
+- [VxFormGenerator](https://github.com/FrediKats/VxFormGenerator): The library contains a component, that nests itself into the Blazor EditForm instead of a wrapper around the EditForm.
+- [Hangfire](https://github.com/HangfireIO/Hangfire): An easy way to perform background job processing in your .NET and .NET Core applications.
 
 
 # ASP
-
 - [Rin](https://github.com/mayuki/Rin): Request/response Inspector middleware for ASP.NET Core
 - [Micronetes](https://github.com/davidfowl/Micronetes): Micronetes is a local orchestrator inspired by kubernetes that makes developing and testing microservices and distributed applications easier.
 - [Ocelot](https://github.com/ThreeMammals/Ocelot): .NET core API Gateway
 - [MagicOnion](https://github.com/Cysharp/MagicOnion): Unified Realtime/API Engine for .NET Core and Unity.
 - [Electron.NET](https://github.com/ElectronNET/Electron.NET): Build cross platform desktop apps with ASP.NET Core.
+- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional): StackExchange.Exceptional is the error handler/logger used internally by Stack Overflow (Stack Exchange) for logging to SQL Server, but many backends (including custom) are supported.
+- [Carter](https://github.com/CarterCommunity/Carter): Carter is framework that is a thin layer of extension methods and functionality over ASP.NET Core allowing code to be more explicit and most importantly more enjoyable.
+## Microservices
+- [Tye](https://github.com/dotnet/tye): Tye is a developer tool that makes developing, testing, and deploying microservices and distributed applications easier
 
 # Discord
 
@@ -45,7 +56,6 @@
 - [Miunie](https://github.com/control-net/Miunie): Miunie is a community developed bot with an attitude.
 
 # ExcelMapper
-
 - [ExcelMapper](https://github.com/mganss/ExcelMapper): A library to map POCO objects to Excel files.
 - [EPPlus.Core.Extensions](https://github.com/eraydin/EPPlus.Core.Extensions): 
 - [Excel-IO](https://github.com/OfficeDev/Excel-IO): A utility library that makes it easy to read and write Excel workbooks using C#
@@ -82,6 +92,7 @@
 - [RoslynQuoter](https://github.com/KirillOsenkov/RoslynQuoter): Roslyn tool that for a given C# program shows syntax tree API calls to construct its syntax tree
 
 # Helpers
+
 
 - [NetFabric.Hyperlinq](https://github.com/NetFabric/NetFabric.Hyperlinq): High performance LINQ implementation with minimal heap allocations. Supports enumerables, async enumerables, arrays and Span<T>.
 - [nein-linq](https://github.com/axelheer/nein-linq): NeinLinq provides helpful extensions for using LINQ providers such as Entity Framework that support only a minor subset of .NET functions, reusing functions, rewriting queries, even making them null-safe, and building dynamic queries using translatable predicates and selectors.
@@ -127,3 +138,21 @@
 
 # FSharp
 - [AlgebraFs](https://github.com/Zaid-Ajaj/AlgebraFs)
+- [FSharpCheatSheet](https://github.com/alhassy/FSharpCheatSheet)
+
+# Analyzers
+- [Meziantou.Analyzer](https://github.com/meziantou/Meziantou.Analyzer): A Roslyn analyzer to enforce some good practices in C#.
+- [StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers): An implementation of StyleCop rules using the .NET Compiler Platform
+
+# Also
+- [Flurl](https://github.com/tmenier/Flurl): Fluent URL builder and testable HTTP client for .NET
+- [spectre.console](https://github.com/spectresystems/spectre.console): A library that makes it easier to create beautiful console applications.
+- [Sharprompt](https://github.com/shibayan/Sharprompt): Interactive command line interface toolkit for C#
+- [ExtCore](https://github.com/ExtCore/ExtCore): Free, open source and cross-platform framework for creating modular and extendable web applications based on ASP.NET Core
+- [Revo](https://github.com/revoframework/Revo): Event Sourcing, CQRS and DDD framework for C#/.NET Core.
+
+
+# Apps
+- [Files](https://github.com/files-community/Files): A modern file explorer that pushes the boundaries of the platform.
+- [Quarrel](https://github.com/UWPCommunity/Quarrel): A UWP discord client
+- [Unigram](https://github.com/UnigramDev/Unigram): A Telegram desktop app made for Windows 10
