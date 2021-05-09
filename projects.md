@@ -11,7 +11,7 @@
 - Description: Информационная система с элементами геймификации (и многими другими фичами).
 
 ## Sea ink
-- Link:
+- Link: https://github.com/kysect/SeaInk
 - Stack: ASP Web API
 - Maintainer: annchous
 - Description: Информационная система с элементами геймификации (и многими другими фичами).
