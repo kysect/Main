@@ -14,7 +14,7 @@
         <ul>
           <li><a href="#gitkraken">GitKraken</a></li>
           <li><a href="#visual-studio">Visual Studio</a></li>
-          <li><a href="#ide-от-jetbrains">IDE от JetBrains"</a></li>
+          <li><a href="#ide-от-jetbrains">IDE от JetBrains</a></li>
         </ul>
   <li><a href="#что-почитать">Что почитать?</a></li>
 </ol>
