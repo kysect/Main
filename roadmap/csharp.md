@@ -114,6 +114,7 @@
 
 ## ASP Web API
 - [Create a web API with ASP.NET Core](https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/)
+- [Build RESTFUL API witn ASP.NET Core](https://medium.com/free-code-camp/an-awesome-guide-on-how-to-build-restful-apis-with-asp-net-core-87b818123e28)
 - [DI](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 - [Swagger](https://docs.microsoft.com/en-us/learn/modules/improve-api-developer-experience-with-swagger/)
 - [Logging](https://docs.microsoft.com/en-us/learn/modules/aspnet-logging/)
