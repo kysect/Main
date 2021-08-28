@@ -16,12 +16,17 @@
 - Maintainer: annchous
 - Description: Информационная система с элементами геймификации (и многими другими фичами).
 
+## CentumFramework
+- Link: https://github.com/kysect/CentumFramework
+- Stack: .NET Core, Google API
+- Maintainer: ronimizy
+- Description: Обёртка над Google API, упрощающая работу с ним за счет абстракций над запросами
+
 ## github-activity-analyzer
 - Link: https://github.com/kysect/github-activity-analyzer
 - Stack:
 - Maintainer: FrediKats
 - Description: Проект представляет собой инструмент для генерации статистики про активность пользователей по гитхабу.
-
 
 ## ScheduleAggregator
 - Link: https://github.com/kysect/ScheduleAggregator
