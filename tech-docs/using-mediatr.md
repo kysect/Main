@@ -52,7 +52,7 @@ public static class CreateStudent // Container for command and handler
             _db = db;
         }
         
-        public Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
         {
             // Your logic here
         }
