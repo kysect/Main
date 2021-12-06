@@ -25,16 +25,6 @@
 9. Нажать "Generate Files", после чего по указанному ранее пути создастся клиент
 10. Нажать Ctrl+S что бы сохранить nswag файл с конфигурацией клиента, в дальнейшем нужно будет просто обновлять его и перегенерировать клиент
 
-<details>
-<summary>Как вообще этим пользоваться</summary>
-
-Достаточно просто: создаём сгенерированный класс Client руками или череез DI контейнер. У него есть единственная зависимость - HttpClient. У HttpClient обязательно должно быть установлено поле BaseAddress - собственно адрес нашего сервера. В случае веб клиента его можно получить из класса ASP
-
-<p>
-
-```c#
-new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) }
-
 ### Процесс обновления:
 1. Запустить [NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
 2. Открыть в ней файл *\*.nswag*, он обычно находится в проекте SDK.
@@ -45,6 +35,48 @@ new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) }
 
 5. Удостовериться, что в "Outputs" выбран нужный тип клиента ("CSharp Client"), после чего нажать "Generate Files"
 6. Нажать Ctrl+S что бы сохранить обновлённый nswag файл
+
+
+### Как этим вообще пользоваться
+<details>
+<summary>Тык</summary>
+
+Достаточно просто: создаём сгенерированный класс Client руками или череез DI контейнер. У него есть единственная зависимость - HttpClient. У HttpClient обязательно должно быть установлено поле BaseAddress - собственно адрес нашего сервера. В случае веб клиента его можно получить из класса ASP
+
+<p>
+
+```c#
+new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) }
+```
+
+</p>
+
+Также его можно установить просто строкой. Итоговое создание клиента будет выглядеть примерно так:
+
+DI:
+
+<p>
+
+```c#
+builder.Services.AddScoped(_ => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+builder.Services.AddScoped<Client>();
+```
+
+</p>
+
+Ручками:
+
+<p>
+
+```c#
+var client = new Client(new HttpClient(){BaseAddress = new Uri("https://localhost:5001/")});
+```
+
+Класс Client по сути дублирует методы нашего API, так что дальше можно просто вызывать нужные нам методы
+
+</p>
+
+</details>
 
 ## Возможные ошибки
 
