@@ -34,34 +34,6 @@
 
 ```c#
 new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) }
-\```
-
-</p>
-
-Также его можно установить просто строкой. Итоговое создание клиента будет выглядеть примерно так:
-
-DI:
-
-<p>
-
-```c#
-builder.Services.AddScoped(_ => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-builder.Services.AddScoped<Client>();
-\```
-
-</p>
-
-Ручками:
-
-<p>
-
-```c#
-var client = new Client(new HttpClient(){BaseAddress = new Uri("https://localhost:5001/")});
-\```
-
-</p>
-
-</details>
 
 ### Процесс обновления:
 1. Запустить [NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
