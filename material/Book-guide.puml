@@ -17,7 +17,7 @@ package OOP {
     object СовершенныйКод
     object Рефакторинг
     object DDD
-    object ЭлегантныеОбъекты
+    object Элегантные_объекты
     object Чистая_архитектура
 }
 
