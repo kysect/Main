@@ -45,7 +45,7 @@
 
 - "Уотсон Б. Высокопроизводительный код на платформе .NET"
 - "Кокоса К. Управление памятью в .NET для профессиронало"
-- "Farrell Ch. Under the Hood of  .NET Memory Management"
+- "Farrell Ch. Under the Hood of .NET Memory Management"
 
 ## Other
 
