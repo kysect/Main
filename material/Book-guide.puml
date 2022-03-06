@@ -14,7 +14,7 @@ package CSharp_Basic {
 package OOP {
     object Чистый_код
     object Тепляков
-    object СовершенныйКод
+    object Совершенный_код
     object Рефакторинг
     object DDD
     object Элегантные_объекты
