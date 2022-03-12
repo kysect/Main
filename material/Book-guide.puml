@@ -1,0 +1,47 @@
+@startuml
+
+package Basic {
+    object Вайсфельд
+}
+
+package CSharp_Basic {
+    object Троелсен
+    object Прайс
+    object Арорра
+    object Clr_via_csharp
+}
+
+package OOP {
+    object Чистый_код
+    object Тепляков
+    object Совершенный_код
+    object Рефакторинг
+    object DDD
+    object Элегантные_объекты
+    object Чистая_архитектура
+}
+
+package WebServices {
+    object Архитектура_корпоративных_приложений
+    object Микросервисы_на_платформе_.NET
+}
+
+package Under_the_hood {
+    object Under_the_hood_of_memory_management
+    object Memory_management_in_dotnet
+}
+
+package Multithreading {
+    object TAP
+    object Concurency_in_csharp
+}
+
+Вайсфельд --> Прайс
+Прайс --> Чистый_код
+Чистый_код --> Чистая_архитектура
+Чистая_архитектура --> DDD
+DDD --> Архитектура_корпоративных_приложений
+Архитектура_корпоративных_приложений --> Memory_management_in_dotnet
+Memory_management_in_dotnet --> Concurency_in_csharp
+
+@enduml
