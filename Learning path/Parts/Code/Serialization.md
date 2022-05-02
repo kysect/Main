@@ -1,5 +1,7 @@
 # Serialization
 
+> TODO: I1
+
 ## Json, xml, binary
 
 ## Missed ctor, private setters, etc.

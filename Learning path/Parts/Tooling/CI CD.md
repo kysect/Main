@@ -1,5 +1,7 @@
 # CI CD
 
+> TODO: I1
+
 ## CI CD как способ сократить время
 
 ## Github actions, Azure pipelines

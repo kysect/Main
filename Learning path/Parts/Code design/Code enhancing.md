@@ -112,7 +112,7 @@ class Date
 
 - Наследование и инкапсуляция - ProductList : Dictionary<Product, ProductInfo>
 
-> TODO
+> TODO: I1
 
 ## Зачем нужен кодстайл
 
