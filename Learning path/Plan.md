@@ -4,11 +4,11 @@
 
 ## Other
 
-- Array, List, IReadOnlyCollection
 - Валидация внутри сущностей и валидация снаружи
 - Пути, проблемы с путями в коде - Path Compine, валидация, относительные пути, RuntimeDir?.Parent?.Parent?.Parent?.FullName, как доставать файлы по каким-то путям во время дебага или запуска тестов
 - NRT, как работала нулабилити раньше и сейчас
 - DDD, domain language
+- Траблшутинг в дебаге, pdb и в целом эдвансед дебаг, Запуск в debug и release
 
 - [How to create better code using Domain-Driven Design](https://altkomsoftware.pl/en/blog/create-better-code-using-domain-driven-design/)
 - [Active Record](https://habr.com/ru/company/domclick/blog/515560/)
@@ -17,5 +17,3 @@
 - [Using strongly-typed entity IDs to avoid primitive obsession](https://andrewlock.net/using-strongly-typed-entity-ids-to-avoid-primitive-obsession-part-1/)
 
 ## Пока скип
-
-- Запуск в debug и release
