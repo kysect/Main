@@ -17,3 +17,5 @@
 - [Using strongly-typed entity IDs to avoid primitive obsession](https://andrewlock.net/using-strongly-typed-entity-ids-to-avoid-primitive-obsession-part-1/)
 
 ## Пока скип
+
+- Проблемы типизации с дженериками и дженериков
