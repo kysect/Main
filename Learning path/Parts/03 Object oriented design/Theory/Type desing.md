@@ -129,3 +129,4 @@
 - [D1] - [https://altkomsoftware.pl/en/blog/create-better-code-using-domain-driven-design/](https://altkomsoftware.pl/en/blog/create-better-code-using-domain-driven-design/)
 - [D2] - Реализация методов предметно-ориентированого проектирования, Вон Вернон
 - https://nodatime.org/2.4.x/api/NodaTime.LocalDateTime.html
+- [Using strongly-typed entity IDs to avoid primitive obsession](https://andrewlock.net/using-strongly-typed-entity-ids-to-avoid-primitive-obsession-part-1/)

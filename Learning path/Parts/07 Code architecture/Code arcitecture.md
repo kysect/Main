@@ -2,6 +2,11 @@
 
 > TODO: I1
 
+- [How to create better code using Domain-Driven Design](https://altkomsoftware.pl/en/blog/create-better-code-using-domain-driven-design/)
+- [Active Record](https://habr.com/ru/company/domclick/blog/515560/)
+- [DDD, Hexagonal, Onion, Clean, CQRS](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+- [CQRS + Event Sourcing](https://danielwhittaker.me/2020/02/20/cqrs-step-step-guide-flow-typical-application/)
+
 ## Высокоуровневый и низкоуровневый код
 
 Архитектура код всегда строится вокруг бизнес логики. Под бизнес логикой будет подразумевать описание сущностей, правил и логики работы доменной области, автоматизация которой является целью разработки. Например, описывая приложение для магазина, таким можно назвать всё, что касается работы с товарами, продажами и прочим. Но при этом, есть ещё логика работы UI или с базой данных. Бизнес логика не имеет ценности без других инфраструктурных элементов.
