@@ -1,13 +1,10 @@
 # Конкурентность
 
-> TODO: I1
+> TODO: I2
 
-## Потоки выполнения, Threads
-
-## Task
-
-## Locks
-
-## Concurrency collections
-
-## ThreadPool
+- Понятие потоков
+- Блокировки, шаренные ресурсы
+- Таски
+- Concurrency collections
+- PLINQ
+- Как написать свой тредпул

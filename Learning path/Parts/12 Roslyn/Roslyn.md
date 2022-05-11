@@ -1,6 +1,6 @@
 # Roslyn
 
-> TODO: I1
+> TODO: I2 расписать
 
 ## Compiler as a service
 

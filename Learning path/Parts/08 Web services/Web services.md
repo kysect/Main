@@ -1,27 +1,30 @@
 # Web services
 
-> TODO: I1
+> TODO: I2 прописать более подробно, чтобы было понятно что тут будет, а что скип
 
 ## WEB, basic stuff
 
-- HTTP, REST
+- Виды HTTP запросов, REST
+- Архитектура клиент-серверных приложений
 
 ## ASP.NET
 
-## Swagger
+- Контроллеры, построение API
+- Сваггер спецификация, разметка, Генерация клиентов
+- DI, IoC
+- Валидация запросов
+- Настройки, конфигурационные файлы
+- CORS
+- Маппинг
+- Логирование
+- Фоновые сервисы
 
-## Controllers
+## Auth
 
-## DI, IoC
+- JWT токены
+- Identity framework
 
-## Middlewares
-
-- Cache, validating
-- Auth
-
-## Mapping
-
-## Client generation
+## Postman
 
 ## Sources
 
