@@ -1,22 +1,25 @@
 # Работа с Git + Github: Для самых маленьких
 
-<summary> </summary>
-<ol>
- <li><a href="#что-такое-git">Что такое Git?</a></li>
-        <ul>
-          <li><a href="#репозиторий">Репозиторий</a></li>
-          <li><a href="#коммиты-и-комменты">Коммиты и комменты</a></li>
-          <li><a href="#ветки-и-pull-request">Ветки и pull request</a></li>
-          <li><a href="#gitignore">Немного о .gitignore</a></li>
-        </ul>
-  <li><a href="#варианты-работы-с-git">Варианты работы с Git</a></li>
-        <ul>
-          <li><a href="#gitkraken">GitKraken</a></li>
-          <li><a href="#visual-studio">Visual Studio</a></li>
-          <li><a href="#ide-от-jetbrains">IDE от JetBrains</a></li>
-        </ul>
-  <li><a href="#что-почитать">Что почитать?</a></li>
-</ol>
+- [Работа с Git + Github: Для самых маленьких](#работа-с-git--github-для-самых-маленьких)
+  - [Система контроля версий](#система-контроля-версий)
+    - [VCS для нескольких пользователей](#vcs-для-нескольких-пользователей)
+    - [Репозитории](#репозитории)
+    - [Github repository](#github-repository)
+  - [Commits](#commits)
+    - [Commits naming](#commits-naming)
+    - [Commit author](#commit-author)
+    - [Ignoring files in git](#ignoring-files-in-git)
+  - [Branching](#branching)
+    - [Base branch merge](#base-branch-merge)
+    - [Pull request](#pull-request)
+    - [Conflict](#conflict)
+    - [Коммиты и ветки](#коммиты-и-ветки)
+  - [Варианты работы с Git](#варианты-работы-с-git)
+    - [GitKraken](#gitkraken)
+  - [Альтернативный способ:](#альтернативный-способ)
+    - [Visual Studio](#visual-studio)
+    - [IDE от JetBrains](#ide-от-jetbrains)
+  - [Что почитать](#что-почитать)
 
 ## Система контроля версий
 
