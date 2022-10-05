@@ -50,4 +50,4 @@
 
 ## Пример результата
 
-![colonizer-demo](./colonizer-demo.gif)
+![colonizer-demo](./Colonizer-demo.gif)
