@@ -1,0 +1,13 @@
+@startuml
+
+(Init) <-u- (C1)
+note left of C1 : master (before merge)
+(C1) <-r- (C2)
+(C2) <-u- (C3)
+note right of C3 : feat/new-feature
+
+(C1) <-u- (merge)
+(C3) <-l- (merge)
+note left of merge : master (after merge)
+
+@enduml

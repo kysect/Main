@@ -1,0 +1,19 @@
+@startuml
+
+(Init) <-r- (C1)
+note right of C1 : dev (first commit)
+
+(C1) <-r- (C2)
+note right of C2 : feat/first-feature
+
+(C2) <-- (M1)
+
+(M1) <-r- (C3)
+note right of C3 : feat/second-feature
+
+(C3) <-l- (M2)
+
+(Init) <-u- (M3)
+(M2) <-u- (M3)
+
+@enduml
