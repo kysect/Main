@@ -1,47 +1,86 @@
-@startuml
+@startuml Bookshelf
 
-package Basic {
-    object Вайсфельд
+skinparam component {
+    Style rectangle
 }
 
-package CSharp_Basic {
-    object Троелсен
-    object Прайс
-    object Арорра
-    object Clr_via_csharp
+component "C# Basic" as CSharp_Basic {
+    component "The Object-Oriented Thought Process \nBy Matt Weisfeld" as Object_Oriented
+    component "C# 12 and .NET 8 \nBy Mark J. Price" as Price
+    component "Pro C# 10 with .NET 6 \nBy Andrew Troelsen" as Troelsen
+    component "C# 12 in a Nutshell \nBy Joseph Albahari" as Albahari
+
+    Object_Oriented -d-> Price
+    Price <.l.> Troelsen
+    Price <.r.> Albahari
 }
 
-package OOP {
-    object Чистый_код
-    object Тепляков
-    object Совершенный_код
-    object Рефакторинг
-    object DDD
-    object Элегантные_объекты
-    object Чистая_архитектура
+component "Code design" as Code_design {
+    component "Programming with Types \nBy Vlad Riscutia" as Programming_with_Types
+    component "Clean Code \nBy Robert C. Martin" as Clean_code
+    component "Unit Testing Principles, Practices, and Patterns \nBy Vladimir Khorikov" as Unit_testing
+    component "Dependency Injection Principles, Practices, and Patterns \nBy Steven van Deursen" as Dependency_injection
+    component "Паттерны проектирования на платформе .NET \nBy Sergey Teplyakov" as Patterns
+    component "Category Theory for Programmers \nBy Bartosz Milewski" as Category_Theory
+
+    Programming_with_Types --> Clean_code
+    Clean_code --> Unit_testing
+    Unit_testing --> Dependency_injection
+    Clean_code --> Patterns
+    Programming_with_Types --> Category_Theory
 }
 
-package WebServices {
-    object Архитектура_корпоративных_приложений
-    object Микросервисы_на_платформе_.NET
+component "Code Architecture" as Code_Achitecture {
+    component "Clean Architecture \nBy Robert C. Martin" as Clean_Architecture
+    component "Microsoft .NET: Architecting Applications for the Enterprise \nBy Dino Esposito" as Microsoft_NET
+    component "Implementing Domain-Driven Design \nBy Vaughn Vernon" as DDD
+
+    Clean_Architecture --> Microsoft_NET
+    Microsoft_NET --> DDD
 }
 
-package Under_the_hood {
-    object Under_the_hood_of_memory_management
-    object Memory_management_in_dotnet
+component ".NET" as NET_Internals {
+    component "Concurrency in C# Cookbook \nBy Stephen Cleary" as Cleary
+    component "Pro .NET Memory Management \nBy Konrad Kokosa" as Memory_Management
+    component "Pro .NET Benchmarking \nBy Andrey Akinshin" as Benchmarking
+    component "Exploring the .NET Core 3.0 Runtime \nBy Roger Villela"
+    component "Pro .NET Framework with the Base Class Library \nBy Roger Villela"
+    component "Apps and Services with .NET 8 \nBy Mark J. Price"
+
+    Cleary --> Benchmarking
+    Cleary --> Memory_Management
 }
 
-package Multithreading {
-    object TAP
-    object Concurency_in_csharp
+component "Self dev" as Soft_skills {
+    component "Clean Coder \nBy Robert C. Martin" as Clean_Coder
+    component "Clean Craftsmanship \nBy Robert C. Martin" as Clean_Craftsmanship
+    component "The Pragmatic Programmer \nBy Andrew Hunt" as Pragmatic_Programmer
+
+    Clean_Coder --> Clean_Craftsmanship
+    Clean_Craftsmanship --> Pragmatic_Programmer
 }
 
-Вайсфельд --> Прайс
-Прайс --> Чистый_код
-Чистый_код --> Чистая_архитектура
-Чистая_архитектура --> DDD
-DDD --> Архитектура_корпоративных_приложений
-Архитектура_корпоративных_приложений --> Memory_management_in_dotnet
-Memory_management_in_dotnet --> Concurency_in_csharp
+component "Project management" as Project_management {
+    component "Creating Software with Modern Diagramming Techniques \nBy Ashley Peacock" as Diagrams
+    component "UML Distilled \nBy Martin Fowler" as UML
+
+    component "Code Ahead \nBy Yegor Bugayenko" as Code_Ahead
+    component "Clean Agile: Back to Basics \nBy Robert C. Martin" as Clean_Agile
+    component "Software Engineering at Google \nBy Titus Winters" as Software_Engineering_at_Google
+    component "Continuous Delivery \nBy Jez Humble" as Continuous_Delivery
+    component "Righting Software \nBy Juval Löwy" as Righting_Software
+    component "Software Requirements \nBy Karl Wiegers" as Software_Requirements
+
+    Diagrams --> UML
+    Code_Ahead --> Clean_Agile
+    Clean_Agile --> Software_Engineering_at_Google
+    Software_Engineering_at_Google --> Continuous_Delivery
+    Software_Engineering_at_Google --> Righting_Software
+}
+
+Price --> Clean_code
+Dependency_injection --> Clean_Architecture
+Price --> Cleary
+Pragmatic_Programmer --> Code_Ahead
 
 @enduml
